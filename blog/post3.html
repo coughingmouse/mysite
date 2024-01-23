@@ -25,48 +25,12 @@
             margin-bottom: 20px;
         }
 
-        .blog-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .blog-item {
+        article {
             background-color: #fff;
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .blog-title {
-            font-size: 1.2em;
-            margin-bottom: 10px;
-        }
-
-        .blog-summary {
-            color: #666;
-        }
-
-        .back-button {
-            display: block;
-            margin-top: 20px;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-            text-align: center;
-            text-decoration: none;
-        }
-
-        .back-button i {
-            margin-right: 5px;
-        }
-
-        .back-button:hover {
-            background-color: #0056b3;
         }
 
         a {
@@ -76,6 +40,25 @@
 
         a:hover {
             text-decoration: underline;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .back-button i {
+            margin-right: 5px;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
         }
 
         footer {
@@ -92,24 +75,10 @@
         <h1>My Blog</h1>
     </header>
 
-    <ul class="blog-list">
-        <li class="blog-item">
-            <h2 class="blog-title"><a href="post1.html">첫 번째 포스트 제목</a></h2>
-            <p class="blog-summary">내용</p>
-        </li>
-
-        <li class="blog-item">
-            <h2 class="blog-title"><a href="post2.html">두 번째 포스트 제목</a></h2>
-            <p class="blog-summary">내용</p>
-        </li>
-
-        <li class="blog-item">
-            <h2 class="blog-title"><a href="post3.html">세 번째 포스트 제목</a></h2>
-            <p class="blog-summary">내용</p>
-        </li>
-    </ul>
-
-    <a href="../index.html" class="back-button"><i class="fas fa-arrow-left"></i>메뉴로 돌아가기</a>
+    <article>
+        <h2>세 번째 포스트 제목</h2>
+        <p>세 번째 포스트의 내용</p>
+    </article>
 
     <footer>
         &copy; 2024 My Blog
